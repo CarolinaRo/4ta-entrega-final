@@ -1,0 +1,185 @@
+
+.bg-light{
+  background-color: lightcoral!important;
+}
+
+body{ 
+  margin: 0 auto;
+}
+
+.banner{
+  background-image: url(../images/banner.png);
+  /* CODIGO DE ARRIBA SÓLO LO LEE ASÍ Y NO URL (./IMAGES...)*/
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  margin: 0%;
+}
+
+nav{
+  height: auto;
+}
+
+.opciones{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  background-color: lightcoral;
+  height: 100%;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Quicksand'!important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.jumbotron{
+  background-color: rgb(209 186 171);
+  font-family: 'quicksand'!important;
+}
+
+.corona{
+  max-width: 35px;
+  margin: 0;
+  text-align: center;
+}
+
+.display-4{
+  font-family: inherit;
+  color: whitesmoke;
+}
+
+.lead{
+  font-size: 4rem;
+  font-family: auto;
+}
+
+#locales{   
+  flex-wrap: nowrap ;
+  justify-content: space-around;
+}
+
+h5{
+  font-size: 2rem;
+  font-family: 'Lovers Quarrel';
+  color: black;
+}
+
+.funcion{
+  background-color: lightcoral;
+  font-size: 15px;
+}
+
+.portada{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1{
+  color: #AB8E5D;
+  font-family: 'Lovers Quarrel', bold;
+  font-size: 45px;
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  color: black
+}
+
+p{
+  font-family: 'quicksand', cursive;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.final{
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Quicksand';
+}
+
+.htmls{
+  font-style: italic;
+  letter-spacing: 3.648px;
+  margin-top: 180px;
+  color: rgb(133, 116, 116);
+  text-align: center;
+}
+
+#sobreNos{
+  font-family: 'Quicksand';
+  font-size: 20px;
+}
+
+.contenedorDos{
+  height: auto;
+  display: grid;
+  grid-template-rows: 30% 7% 40% 7%;
+  grid-template-columns: 100%;
+  grid-template-areas:
+                      "header"
+                      "menu"
+                      "contenido"
+                      "footer";
+}
+
+#formulario{
+  text-align: center;
+  background-color: #AB8E5D;
+  margin: auto;
+}
+
+li{
+  list-style-type: none;
+}
+
+legend{
+  font-family: 'Quicksand', bold;
+  font-size: 21px;
+  letter-spacing: 2.5px;
+  color:whitesmoke;
+  background-color: #AB8E5D;
+  text-decoration: underline;
+}
+
+#locales{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.localA{
+  height: fit-content;
+  padding: 10px;
+  background-color: lightcoral;
+  margin: 45px;
+}
+
+#estiloUno{
+  color: #AB8E5D;
+  text-align: center;
+  font-family: 'Lovers Quarrel', cursive;
+  text-decoration: underline;
+  font-size: 55px;  
+}
